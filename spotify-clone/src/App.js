@@ -1,10 +1,10 @@
 import React from 'react';
-import LoginPage from './components/LoginPage';
+import searchPage from './pages/searchPage.jsx'
 
 const App = () => {
     return (
         <div>
-            <LoginPage />
+            <searchPage />
         </div>
     );
 }

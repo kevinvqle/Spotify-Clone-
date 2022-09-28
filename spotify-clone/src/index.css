@@ -6,25 +6,6 @@
 
 nav {
     height: 20vh;
+    width: 20vw;
 }
 
-.nav__container {
-    margin: 20px 0;
-    padding-bottom: 20px;
-    display: flex;
-    max-width: 2400px;
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    border-bottom: 1px solid grey;
-}
-
-.nav__icon {
-    height: 50px;
-}
-
-.nav__title {
-    margin-left: 10px;
-    font-size: 48px;
-    font-weight: 600px;
-}
