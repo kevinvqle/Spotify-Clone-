@@ -4,8 +4,9 @@ import './index.css';
 import App from './App';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faSpotify } from '@fortawesome/free-brands-svg-icons';
+import { faHouse, faMagnifyingGlass,faBookmark } from '@fortawesome/free-solid-svg-icons';
 
-library.add( faSpotify );
+library.add( faSpotify, faHouse, faMagnifyingGlass, faBookmark);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

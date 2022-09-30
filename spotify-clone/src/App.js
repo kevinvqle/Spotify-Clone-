@@ -1,11 +1,9 @@
 import React from 'react';
-import searchPage from './pages/searchPage.jsx'
+import SearchPage from './pages/SearchPage';
 
 const App = () => {
     return (
-        <div>
-            <searchPage />
-        </div>
+        <SearchPage />
     );
 }
 

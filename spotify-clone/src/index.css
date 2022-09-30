@@ -1,11 +1,75 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gotham', sans-serif;
+    font-family: 'Gotham Black', sans-serif;
+    font-family: 'Gotham Light', sans-serif;
+    font-family: 'Gotham Thin', sans-serif;
+    font-family: 'Gotham XLight', sans-serif;
+    font-family: 'Gotham Book', sans-serif;
+    font-family: 'Gotham Ultra', sans-serif;
 }
 
-nav {
-    height: 20vh;
-    width: 20vw;
+/*
+
+WEBPLAYER NAVIGATION BAR
+
+*/
+
+#nav__webplayer {
+    height: 100vh;
+    width: 17vw;
+    background-color: #191414;
 }
 
+.nav__container {
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 25px;
+}
+
+.nav__heading {
+    display: flex;
+    padding-top: 25px;
+}
+
+.nav__img {
+    color: #ffffff;
+    background-color: #191414;
+    padding-right: 5px;
+    font-size: 40px;
+}
+
+.nav__title {
+    padding-top: 7px;
+    font-size: 24px;
+    color: #ffffff;
+    font-family: 'Gotham Thin 400', sans-serif;
+}
+
+.nav__tabs {
+    margin-top: 25px;
+}
+
+.nav__tab {
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.tab__img {
+    color: grey;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+
+.tab__title {
+    color: grey;
+    font-size: 15px;
+    font-family: 'Gotham Light', sans-serif;
+    padding-top: 5px;
+}

@@ -1,11 +1,13 @@
 import React from 'react';
-import sideBar from '../components/sideBar';
+import SideBar from '../webplayer/SideBar';
 
-
-const searchPage = () => {
+const SearchPage = () => {
     return (
-        <sideBar />
+        <section id="searchPage">
+            <SideBar />
+            
+        </section>
     );
 }
 
-export default searchPage;
+export default SearchPage;
