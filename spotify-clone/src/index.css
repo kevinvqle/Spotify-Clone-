@@ -13,6 +13,14 @@
     font-family: 'Gotham Ultra', sans-serif;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
 /*
 
 WEBPLAYER NAVIGATION BAR
@@ -21,8 +29,9 @@ WEBPLAYER NAVIGATION BAR
 
 #nav__webplayer {
     height: 100vh;
-    width: 17vw;
-    background-color: #191414;
+    width: 17%;
+    background-color: rgb(10, 10, 10);
+    position: absolute;
 }
 
 .nav__container {
@@ -38,7 +47,7 @@ WEBPLAYER NAVIGATION BAR
 
 .nav__img {
     color: #ffffff;
-    background-color: #191414;
+    background-color: rgb(10, 10, 10);
     padding-right: 5px;
     font-size: 40px;
 }
@@ -57,13 +66,20 @@ WEBPLAYER NAVIGATION BAR
 .nav__tab {
     display: flex;
     margin-top: 15px;
+}
+
+.tab__container {
+    display: flex;
     width: 100%;
+    margin: 0 auto;
+    align-items: center;
 }
 
 .tab__img {
     color: grey;
     margin-right: 15px;
     font-size: 25px;
+    max-width: 200px;
 }
 
 
@@ -72,4 +88,67 @@ WEBPLAYER NAVIGATION BAR
     font-size: 15px;
     font-family: 'Gotham Light', sans-serif;
     padding-top: 5px;
+}
+
+/*
+
+SEARCH PAGE
+
+*/
+
+#top__bar {
+    height: 7vh;
+    position: sticky;
+    margin-left: 17%;
+    top: 0;
+    background-color: #121212;
+}
+
+.top__container {
+    margin: 0 50px;
+    max-width: 1800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search__container {
+    background-color: #ffffff;
+    max-width: 300px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 13px;
+    padding: 10px 0;
+    border-radius: 20px;
+}
+
+.img__search {
+    margin-left: 10px;
+    background-color: #ffffff;
+    color: black;
+}
+
+.search__input {
+    border: none;
+    font-size: 12px;
+    max-width: 200px;
+    width: 100%;
+    margin-left: 10px;
+    font-family: 'Gotham Light', sans-serif;
+}
+
+.account__container {
+    background-color: #ffffff;
+    max-width: 200px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.account__info {
+    font-size: 15px;
+    margin-top: 10.5px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
 }

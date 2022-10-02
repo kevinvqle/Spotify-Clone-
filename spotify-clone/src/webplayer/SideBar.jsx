@@ -11,16 +11,22 @@ const SideBar = () => {
                 </div>
                 <div className="nav__tabs">
                     <div className="nav__tab">
-                        <FontAwesomeIcon icon="fa-solid fa-house" className="tab__img" />
-                        <h3 className="tab__title">Home</h3>
+                        <div className="tab__container">
+                            <FontAwesomeIcon icon="fa-solid fa-house" className="tab__img" />
+                            <h3 className="tab__title">Home</h3>
+                        </div>
                     </div>
                     <div className="nav__tab">
-                        <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" className="tab__img" />
-                        <h3 className="tab__title">Search</h3>
+                        <div className="tab__container">
+                            <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" className="tab__img" />
+                            <h3 className="tab__title">Search</h3>
+                        </div>
                     </div>
                     <div className="nav__tab">
-                        <FontAwesomeIcon icon="fa-solid fa-bookmark" className="tab__img" />
-                        <h3 className="tab__title">Your Library</h3>
+                        <div className="tab__container">
+                            <FontAwesomeIcon icon="fa-solid fa-bookmark" className="tab__img" />
+                            <h3 className="tab__title">Your Library</h3>
+                        </div>
                     </div>
                 </div>
             </div>
