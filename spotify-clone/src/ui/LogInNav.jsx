@@ -21,12 +21,17 @@ const logInNav = () => {
                 </div>
                 <div className="form__container">
                     <form className="form__style">
-                        <label classname="form__label" htmlFor="email__label">Email address</label><br/>
-                        <input classname="input" type="email" name="email__label" placeholder='Email address or username'/><br/>
-                        <label classname="form__label" htmlFor="password__label">Password</label><br/>
-                        <input classname="input" type="password" placeholder='Password'/><br/>
-                        <input type="checkbox"/>
-                        <label htmlFor="remember__me">Remember me</label>
+                        <label htmlFor="email__label">Email Address</label><br/>
+                        <input type="email" name="email__label" placeholder='Email Address or Username'/><br/>
+                        <label htmlFor="password__label">Password</label><br/>
+                        <input type="password" placeholder='Password'/><br/>
+                        <div className="button__container">
+                            <div className="checkbox__container">
+                                <input type="checkbox"/>
+                                <label htmlFor="remember__me">Remember me</label>
+                            </div>
+                            <button className="login__btn">Log in</button>
+                        </div>
                     </form>
                 </div>
             </div>
