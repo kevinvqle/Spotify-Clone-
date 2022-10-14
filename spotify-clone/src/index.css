@@ -20,11 +20,10 @@ nav {
 }
 
 .div__container {
-    display: flex;
-    max-width: 2400px;
-    width: 100%;
+    margin: 0 auto;
     text-align: center;
-    justify-content: center;
+    max-width: 800px;
+    width: 100%;
 }
 
 .nav__icon {
@@ -48,7 +47,7 @@ nav {
     background-color: white;
     border-style: solid;
     border-width: 1px;
-    border-color: black;
+    border-color: grey;
     color: grey;
     padding: 10px 20px;
     text-align: center;
@@ -57,9 +56,66 @@ nav {
     font-weight: bold;
     letter-spacing: 1.5px;
     display: inline-block;
-    margin: 0 auto;
+    margin: 0 auto 15px;
     cursor: pointer;
     border-radius: 30px;
-    width: 25%;
+    width: 50%;
     height:6vh;
+  }
+
+.pill__button:hover{
+    border-color: black;
+}  
+
+  .login__text {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 13px;
+    padding-bottom: 10px;
+  }
+
+  .or__container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 400px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .left {
+    border-top: 1px solid grey;
+    margin-top: 5px;
+    margin-right: 20px;
+    width: 100%;
+  }
+
+  .right {
+    border-top: 1px solid grey;
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 100%;
+  }
+
+  .OR {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 13px;
+  }
+
+  .form__container {
+    max-width: 400px;
+    max-height: 700px;
+    margin: 0 auto;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 13px;
+  }
+
+  .form__style{
+    justify-items: flex-start;
   }
