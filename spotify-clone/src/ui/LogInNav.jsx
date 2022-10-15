@@ -12,7 +12,7 @@ const logInNav = () => {
                 </div>
             </nav>
             <div className = "div__container">
-                <p className = "login__text">To continue, log in to Spotify.</p>
+                <p className = "login__text">To continue, log into Spotify.</p>
                 <button class = "pill__button">CONTINUE WITH GOOGLE</button>
                 <div className="or__container">
                     <div className="left"></div>
@@ -33,6 +33,13 @@ const logInNav = () => {
                             <button className="login__btn">Log in</button>
                         </div>
                     </form>
+                </div>
+                <div className="bottom"></div>
+                <div className="dont__container">
+                    <h3 className="dont__title">
+                        Don't have an account?
+                    </h3>
+                    <button className="create__btn">SIGN UP FOR SPOTIFY</button>
                 </div>
             </div>
         </section>
