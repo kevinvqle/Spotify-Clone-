@@ -10,7 +10,7 @@ nav {
 
 /*
 
-LOGIN/SIGNUP 
+LOGIN 
 
 */
 
@@ -138,7 +138,7 @@ LOGIN PAGE
     margin: 10px 0;
   }
 
-  input[type = 'email'], [type = 'password'] {
+  input[type = 'email'], [type = 'password'], [type = 'text'] {
     width: 400px;
     height: 50px;
     padding-left: 10px;
@@ -221,4 +221,122 @@ LOGIN PAGE
 .create__btn:active {
   border: 3px solid rgb(49, 49, 49);
 }
+
+/* 
+
+SIGN UP
+
+*/
+
+#sign_nav__creation{
+    height: 10vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sign_nav__container {
+    margin: 20px 0;
+    display: flex;
+    max-width: 2400px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.sign_nav__title {
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+}
+
+.sign_nav__icon {
+    height: 50px;
+}
+
+.signup__text{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.listening__text{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.sign_pill__button {
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(83, 83, 83);
+    color:  rgb(83, 83, 83);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    display: inline-block;
+    margin: 0 auto 15px;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 50%;
+    height:6vh;
+  }
+
+.sign_pill__button:hover{
+   transform: scale(1.07);
+}
+
+.sign_or__container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 400px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+.sign__left {
+    border-top: 1px solid grey;
+    margin-top: 5px;
+    margin-right: 20px;
+    width: 100%;
+    opacity: 0.5;
+  }
+
+  .sign__right {
+    border-top: 1px solid grey;
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 100%;
+    opacity: 0.5;
+  }
+
+  .sign__OR {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    opacity: 0.5;
+  }
+
+  .email__text{
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 15px 15px;
+  }
+
 
