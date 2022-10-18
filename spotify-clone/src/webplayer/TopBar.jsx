@@ -11,7 +11,7 @@ const TopBar = () => {
                     <input type="text" placeholder="What do you want to listen to?" className="search__input"/>
                 </div>
                 <div className="account__container">
-                    <h5 className="account__info">Jameboyyy</h5>
+                    <h5 className="account__info">Massi Villareal</h5>
                 </div>
             </div>
         </nav>
