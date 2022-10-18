@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express-async-errors": "^3.1.1",
     "react-jsx": "^1.0.0"
   }
 }
