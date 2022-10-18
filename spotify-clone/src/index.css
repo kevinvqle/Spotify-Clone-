@@ -61,11 +61,22 @@ WEBPLAYER NAVIGATION BAR
 
 .nav__tabs {
     margin-top: 25px;
+    cursor: pointer;
+}
+
+.nav__tab:hover {
+    background-color: #242526;
+    padding-left: 30px;
 }
 
 .nav__tab {
     display: flex;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+.nav__tab:active {
+    color: #242526;
 }
 
 .tab__container {
@@ -90,6 +101,10 @@ WEBPLAYER NAVIGATION BAR
     padding-top: 5px;
 }
 
+.tab__title:active {
+    color: #242526;
+}
+
 /*
 
 SEARCH PAGE
@@ -97,7 +112,7 @@ SEARCH PAGE
 */
 
 #top__bar {
-    height: 7vh;
+    height: 10vh;
     position: sticky;
     margin-left: 17%;
     top: 0;
@@ -117,7 +132,7 @@ SEARCH PAGE
     max-width: 300px;
     justify-content: center;
     width: 100%;
-    margin-top: 13px;
+    margin-top: 17px;
     padding: 10px 0;
     border-radius: 20px;
 }
@@ -141,7 +156,7 @@ SEARCH PAGE
     background-color: #ffffff;
     max-width: 200px;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 17px;
     border-radius: 20px;
     position: relative;
 }
