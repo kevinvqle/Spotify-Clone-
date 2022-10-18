@@ -30,7 +30,8 @@ const signUpNav = () => {
                     <label htmlFor="password">Create a password</label><br/>
                     <input type="password" placeholder='Create a password.'/><br/>
                     <label htmlFor="text__label">What should we call you?</label><br/>
-                    <input type="text" placeholder='Enter a profile name'/><br/>            
+                    <input type="text" placeholder='Enter a profile name'/><br/>
+                    <p className='DOB'>What's your date of birth?</p>           
                 </form>
             </div>
         </section>
