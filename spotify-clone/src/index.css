@@ -339,6 +339,48 @@ SIGN UP
     padding: 15px 15px;
   }
 
-.DOB{
-    padding-top: 40px;
+  label[for='genderOpt'] {
+    
+  }
+
+.radio__opt {
+  display: flex;
+}
+
+.radio__sec {
+  display: flex;
+}
+
+.radio__sec {
+    margin: 0 10px;
+}
+
+input[type='radio'] {
+  margin-right: 5px;
+}
+
+.signup__btn {
+  float: right;
+  outline: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+  background-color:	#1DB954;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.signup__btn:hover {
+  transform: scale(1.07);
+}
+
+.signup__btn:active {
+  border: 2px solid black;
+  transform: scale(0.93);
+}
+
+.have {
+  position: relative;
+  display: flex;
 }
