@@ -3,7 +3,9 @@ import LogInNav from '../ui/LogInNav'
 
 const LoginPage = () => {
     return (
-        <LogInNav/>
+        <>
+            <LogInNav/>
+        </>
     );
 }
 

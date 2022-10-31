@@ -339,9 +339,9 @@ SIGN UP
     padding: 15px 15px;
   }
 
-  label[for='genderOpt'] {
-    
-  }
+input[type="date"] {
+  color: grey;
+}
 
 .radio__opt {
   display: flex;
@@ -383,4 +383,15 @@ input[type='radio'] {
 .have {
   position: relative;
   display: flex;
+}
+
+.btn__login {
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  margin-left: 10px;
+}
+.btn__login:hover {
+  cursor: pointer;
+  font-weight: bold;
 }

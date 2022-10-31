@@ -1,10 +1,11 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { HashLink } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 
 const signUpNav = () => {
     return (
-        <section id="login__section">
+        <section id="signup">
             <nav id = "sign_nav__creation">
                 <div className = "sign_nav__container">
                     <FontAwesomeIcon icon = "fa-brands fa-spotify" className="sign_nav__icon"/>
@@ -48,6 +49,9 @@ const signUpNav = () => {
                     <button className="signup__btn">Sign Up</button>
                     <div className="have">
                         <p className='have__para'>Already have an account?</p>
+                        <Link to="/">
+                            <button className="btn__login">Log In</button>
+                        </Link>
                     </div>
                 </form>
             </div>

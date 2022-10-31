@@ -1,10 +1,10 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import { Link } from 'react-router-dom';
 
 const logInNav = () => {
     return (
-        <section id="login__section">
+        <section id="/">
             <nav id = "nav__creation">
                 <div className = "nav__container">
                     <FontAwesomeIcon icon = "fa-brands fa-spotify" className="nav__icon"/>
@@ -39,7 +39,9 @@ const logInNav = () => {
                     <h3 className="dont__title">
                         Don't have an account?
                     </h3>
-                    <button className="create__btn">SIGN UP FOR SPOTIFY</button>
+                    <Link to="signup">
+                        <button className="create__btn">SIGN UP FOR SPOTIFY</button>
+                    </Link>
                 </div>
             </div>
         </section>

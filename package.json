@@ -6,6 +6,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "react-google-login": "^5.2.2",
-    "react-jsx": "^1.0.0"
+    "react-jsx": "^1.0.0",
+    "react-router": "^6.4.2"
   }
 }
