@@ -1,6 +1,5 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 
 const signUpNav = () => {
