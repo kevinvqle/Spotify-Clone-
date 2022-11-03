@@ -12,7 +12,6 @@ const App = () => {
             <Routes>
                 <Route path="/" exact element={ <LoginPage/> } />
                 <Route path="/signup" exact element ={ <SignUp/>} />
-                <SearchPage />
             </Routes>
         </div>
     );
