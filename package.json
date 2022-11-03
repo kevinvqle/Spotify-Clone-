@@ -1,5 +1,12 @@
 {
   "dependencies": {
-    "react-jsx": "^1.0.0"
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "react-google-login": "^5.2.2",
+    "react-jsx": "^1.0.0",
+    "react-router": "^6.4.2"
   }
 }

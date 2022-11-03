@@ -105,6 +105,51 @@ WEBPLAYER NAVIGATION BAR
     color: #242526;
 }
 
+#nav__creation, #sign_nav__creation {
+    height: 20vh;
+}
+
+/*
+
+LOGIN 
+
+*/
+
+.nav__container {
+    margin: 20px 0;
+    padding-bottom: 20px;
+    display: flex;
+    max-width: 2400px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(195, 195, 195);
+}
+
+.div__container {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+.nav__icon {
+    height: 60px;
+}
+
+.nav__title {
+    margin-left: 10px;
+    font-size: 60px;
+    font-weight: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav__creation{
+    height: 20vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
 /*
 
 SEARCH PAGE
@@ -166,4 +211,350 @@ SEARCH PAGE
     position: absolute;
     width: 100%;
     text-align: center;
+}
+
+/*
+
+LOGIN PAGE
+
+*/
+
+.pill__button {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    color: grey;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    margin: 0 auto 15px;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 50%;
+    height:6vh;
+  }
+
+.pill__button:hover{
+    border-color: black;
+}  
+
+  .login__text {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 13px;
+    padding-bottom: 10px;
+  }
+
+  .or__container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 400px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .left {
+    border-top: 1px solid grey;
+    margin-top: 5px;
+    margin-right: 20px;
+    width: 100%;
+  }
+
+  .right {
+    border-top: 1px solid grey;
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 100%;
+  }
+
+  .OR {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 13px;
+  }
+
+  .form__container {
+    max-width: 400px;
+    max-height: 700px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 13px;
+  }
+
+  .form__style{
+    justify-items: flex-start;
+  }
+
+  label {
+    float: left;
+    margin: 10px 0;
+  }
+
+  input[type = 'email'], [type = 'password'], [type = 'text'], [type = 'date'] {
+    width: 400px;
+    height: 50px;
+    padding-left: 10px;
+  }
+
+  input:focus {
+    outline-color: black;
+  }
+
+  .checkbox__container {
+    margin: 10px 0;
+    display: flex;
+  }
+
+  input[type = 'checkbox'] {
+    margin-right: 5px;
+  }
+
+  input[type = 'checkbox']:checked {
+    outline: 2px solid white;
+  }
+
+  .login__btn {
+    float: right;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    background-color:	#1DB954;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .login__btn:hover {
+    transform: scale(1.07);
+  }
+
+  .login__btn:active {
+    border: 2px solid black;
+    transform: scale(0.93);
+  }
+
+  .bottom {
+    max-width: 400px;
+    width: 100%;
+    justify-content: center;
+    align-self: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-top: 1px solid grey;
+  }
+
+  .dont__container {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+  }
+
+.dont__title {
+  margin: 20px 0;
+  font-size: 22px;
+}
+
+.create__btn {
+  max-width: 400px;
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  border: .5px solid grey;
+  cursor: pointer;
+  background-color: white;
+}
+
+.create__btn:hover {
+  border: 2px solid grey;
+}
+
+.create__btn:active {
+  border: 3px solid rgb(49, 49, 49);
+}
+
+/* 
+
+SIGN UP
+
+*/
+
+#sign_nav__creation{
+    height: 10vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sign_nav__container {
+    margin: 20px 0;
+    display: flex;
+    max-width: 2400px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.sign_nav__title {
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+}
+
+.sign_nav__icon {
+    height: 50px;
+}
+
+.signup__text{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.listening__text{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.sign_pill__button {
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(83, 83, 83);
+    color:  rgb(83, 83, 83);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    display: inline-block;
+    margin: 0 auto 15px;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 50%;
+    height:6vh;
+  }
+
+.sign_pill__button:hover{
+   transform: scale(1.07);
+}
+
+.sign_or__container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 400px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+.sign__left {
+    border-top: 1px solid grey;
+    margin-top: 5px;
+    margin-right: 20px;
+    width: 100%;
+    opacity: 0.5;
+  }
+
+  .sign__right {
+    border-top: 1px solid grey;
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 100%;
+    opacity: 0.5;
+  }
+
+  .sign__OR {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    opacity: 0.5;
+  }
+
+  .email__text{
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 15px 15px;
+  }
+
+input[type="date"] {
+  color: grey;
+}
+
+.radio__opt {
+  display: flex;
+}
+
+.radio__sec {
+  display: flex;
+}
+
+.radio__sec {
+    margin: 0 10px;
+}
+
+input[type='radio'] {
+  margin-right: 5px;
+}
+
+.signup__btn {
+  float: right;
+  outline: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+  background-color:	#1DB954;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.signup__btn:hover {
+  transform: scale(1.07);
+}
+
+.signup__btn:active {
+  border: 2px solid black;
+  transform: scale(0.93);
+}
+
+.have {
+  position: relative;
+  display: flex;
+}
+
+.btn__login {
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  margin-left: 10px;
+}
+.btn__login:hover {
+  cursor: pointer;
+  font-weight: bold;
 }
