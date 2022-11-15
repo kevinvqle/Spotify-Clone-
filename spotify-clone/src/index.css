@@ -27,66 +27,66 @@ WEBPLAYER NAVIGATION BAR
 
 */
 
-#nav__webplayer {
+#side__webplayer {
     height: 100vh;
     width: 17%;
     background-color: rgb(10, 10, 10);
     position: absolute;
 }
 
-.nav__container {
+.side__container {
     margin: 0 auto;
     width: 100%;
     padding-left: 25px;
 }
 
-.nav__heading {
+.side__heading {
     display: flex;
     padding-top: 25px;
 }
 
-.nav__img {
+.side__img {
     color: #ffffff;
     background-color: rgb(10, 10, 10);
     padding-right: 5px;
     font-size: 40px;
 }
 
-.nav__title {
+.side__title {
     padding-top: 7px;
     font-size: 24px;
     color: #ffffff;
     font-family: 'Gotham Thin 400', sans-serif;
 }
 
-.nav__tabs {
+.side__tabs {
     margin-top: 25px;
     cursor: pointer;
 }
 
-.nav__tab:hover {
+.side__tab:hover {
     background-color: #242526;
     padding-left: 30px;
 }
 
-.nav__tab {
+.side__tab {
     display: flex;
     margin-top: 20px;
     margin-right: 25px;
 }
 
-.nav__tab:active {
+.side__tab:active {
     color: #242526;
 }
 
-.tab__container {
+.side__container {
     display: flex;
     width: 100%;
     margin: 0 auto;
     align-items: center;
 }
 
-.tab__img {
+.side__img {
     color: grey;
     margin-right: 15px;
     font-size: 25px;
@@ -94,18 +94,18 @@ WEBPLAYER NAVIGATION BAR
 }
 
 
-.tab__title {
+.side__title {
     color: grey;
     font-size: 15px;
     font-family: 'Gotham Light', sans-serif;
     padding-top: 5px;
 }
 
-.tab__title:active {
+.side__title:active {
     color: #242526;
 }
 
-#nav__creation, #sign_nav__creation {
+#side__creation, #sign_nav__creation {
     height: 20vh;
 }
 

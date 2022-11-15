@@ -1,6 +1,4 @@
 import React from 'react';
-import SearchPage from './pages/SearchPage';
-import TopBar from './webplayer/TopBar';
 import LoginPage from './creation/LoginPage';
 import SignUp from './creation/SignUp';
 import { Routes, Route} from "react-router-dom";
