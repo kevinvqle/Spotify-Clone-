@@ -1,3 +1,9 @@
+#		This requires you have pymongo and spotipy to be installed to work correctly. 
+#			and there is something about the acdc songs that messes with it.
+#	To install the reqs:
+#							pip install pymongo spotipy
+#	
+
 import os 
 from pymongo import MongoClient
 import spotipy
