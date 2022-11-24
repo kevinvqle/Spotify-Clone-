@@ -10,3 +10,4 @@ server/.env
 
 # this one is the front end node modules
 ./spotify-clone/node_modules
+node_modules
