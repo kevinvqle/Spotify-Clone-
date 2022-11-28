@@ -2,15 +2,16 @@ import React from 'react';
 import LoginPage from './creation/LoginPage';
 import SignUp from './creation/SignUp';
 import { Routes, Route} from "react-router-dom";
+import SearchPage from './pages/SearchPage';
 
 
 
 const App = () => {
     return (
         <div className="App">
+            <SearchPage />
             <Routes>
-                <Route path="/" exact element={ <LoginPage/> } />
-                <Route path="/signup" exact element ={ <SignUp/>} />
+                <Route path="search__page" element={ <SearchPage/>} />
             </Routes>
         </div>
     );
