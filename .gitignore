@@ -2,12 +2,12 @@
 
 # this is to ignore all the node_module folders i could find.
 # this one is the backend node modules
-./spotify-clone/node_module
+spotify-clone/node_module
 **/server/Music
 
 # while im here im gonna ignore the .env / that way we dont accidentaly upload passwords
-server/.env
+.env
 
 # this one is the front end node modules
-./spotify-clone/node_modules
+spotify-clone/node_modules
 node_modules

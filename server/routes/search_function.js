@@ -11,11 +11,12 @@ router.get("/search/:artistOrSong", async (req, res) => {
 		}else{
 			console.log(data);
 			the = data;
+			res.send( the );
 
 		}
 	});
 
-	res.send( the );
+	
 
 });
 
