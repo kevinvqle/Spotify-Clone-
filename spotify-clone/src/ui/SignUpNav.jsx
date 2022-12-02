@@ -22,9 +22,10 @@ const SignUpNav = () => {
         e.preventDefault();
         // here we are building a json object to send to the backend
         const userInfo = { "name": inputs['name'], "email": inputs['email'], "password": inputs['password'], "month": month, "date": date, "year": year, "gender": "male"}
+        // this is where the actual request is sent
+        // TODO: handle the response but I dont currently know what to do with it lol
         axios.post('http://badify.site:5000/api/users/', userInfo)
-            .then(response => console.log('got it'))
-        alert(inputs['password']);
+            .then(response => alert('account created'))
     };
 
 // END SECTION OF MY FUNCTIONS ************************************************

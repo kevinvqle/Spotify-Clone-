@@ -1,8 +1,30 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
+// this is for routing
+import axios from 'axios';
 
-const logInNav = () => {
+const LogInNav = () => {
+    // this will hold the fields we need
+    const [input, setInputs] = useState([]);
+
+    // this is the function that is gonna track the input and add them as needed
+    function handleChange(event) {
+        const id = event.target.id;
+        const value = event.target.value;
+        setInputs(values => ({...values, [id]: value}));
+    };
+    // this just builds our json obj and sends it on over to the backend
+    function handleSubmit(e){
+        e.preventDefault();
+        // here we are building a json object to send to the backend
+        const userInfo = { "email" : input['email'], "password" : input['password']}
+        // this is where the actual request is sent
+        // TODO: handle the response but I dont currently know what to do with it lol
+        axios.post('http://badify.site:5000/api/login/', userInfo)
+            .then(response => alert(response['data']))
+    };
+
     return (
         <section id="/">
             <nav id = "nav__creation">
@@ -20,11 +42,11 @@ const logInNav = () => {
                     <div className="right"></div>
                 </div>
                 <div className="form__container">
-                    <form className="form__style">
+                    <form className="form__style" onSubmit={handleSubmit}>
                         <label htmlFor="email__label">Email Address</label><br/>
-                        <input type="email" name="email__label" placeholder='Email Address or Username'/><br/>
+                        <input type="email" name="email__label" id="email" placeholder='Email Address or Username' onChange={handleChange} value={input['email']}/><br/>
                         <label htmlFor="password__label">Password</label><br/>
-                        <input type="password" placeholder='Password'/><br/>
+                        <input type="password" id='password' placeholder='Password' onChange={handleChange} value={input['password']}/><br/>
                         <div className="button__container">
                             <div className="checkbox__container">
                                 <input type="checkbox"/>
@@ -48,4 +70,4 @@ const logInNav = () => {
     );
 }
 
-export default logInNav;
+export default LogInNav;
