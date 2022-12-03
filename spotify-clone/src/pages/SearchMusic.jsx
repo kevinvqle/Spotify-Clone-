@@ -22,10 +22,10 @@ const SearchMusic = (props) => {
 		<center>
 		<Row className="mx-2 row  row-cols-4">
 		{results.map((cardInfo) => {
-							return (<Card classname="card" width='18 rem'>
+							return (<Card width='18 rem'>
 					<Card.Img src={cardInfo.artURL}/>
 					<Card.Body classname="card__body">
-					<Card.Title>{cardInfo.title}</Card.Title>
+					<Card.Title classname="card__title">{cardInfo.title}</Card.Title>
 					</Card.Body>
 					</Card>)
 		})}

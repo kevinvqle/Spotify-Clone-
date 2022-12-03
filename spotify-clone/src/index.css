@@ -209,6 +209,10 @@ SEARCH PAGE
   height: 100%;
 }
 
+.card {
+  background-color: #121212!important;
+}
+
 .card-title {
   color: #ffffff;
   font-family: 'Gotham Bold', sans-serif;
