@@ -6,8 +6,8 @@ const SideBar = () => {
         <nav id="side__webplayer">
             <div className="side__container">
                 <div className="side__heading">
-                    <FontAwesomeIcon icon="fa-brands fa-spotify" className="side__img"/>
-                    <h1 className="side__title">Spotify</h1>
+                    <FontAwesomeIcon icon="fa-brands fa-spotify" className="side__title-img"/>
+                    <h1 className="side__heading-title">Spotify</h1>
                 </div>
                 <div className="side__tabs">
                     <div className="side__tab">

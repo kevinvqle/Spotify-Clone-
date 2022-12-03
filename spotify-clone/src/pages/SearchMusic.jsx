@@ -18,13 +18,13 @@ const SearchMusic = (props) => {
 	})
 
 	return (
-		<div>
+		<div className='search__results'>
 		<center>
 		<Row className="mx-2 row  row-cols-4">
 		{results.map((cardInfo) => {
-							return (<Card width='18 rem'>
+							return (<Card classname="card" width='18 rem'>
 					<Card.Img src={cardInfo.artURL}/>
-					<Card.Body>
+					<Card.Body classname="card__body">
 					<Card.Title>{cardInfo.title}</Card.Title>
 					</Card.Body>
 					</Card>)

@@ -1,5 +1,9 @@
 @import url('http://fonts.cdnfonts.com/css/gotham');
 
+html {
+  background-color: rgb(10, 10, 10);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -35,74 +39,69 @@ WEBPLAYER NAVIGATION BAR
 }
 
 .side__container {
-    margin: 0 auto;
-    width: 100%;
-    padding-left: 25px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100px;
+  max-height: 100px;
 }
 
 .side__heading {
-    display: flex;
-    padding-top: 25px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.side__heading-title {
+  color: #ffffff;
+  font-family: 'Gotham Thin 400', sans-serif;
+  font-size: 25px;
+}
+
+.side__heading-title:hover {
+  cursor: default;
+}
+
+.side__title-img {
+  color: #ffffff;
+  font-size: 25px;
+  margin-right: 10px;
+  display: flex;
 }
 
 .side__img {
-    color: #ffffff;
-    background-color: rgb(10, 10, 10);
-    padding-right: 5px;
-    font-size: 40px;
+  color: grey;
+  font-size: 25px;
+  float: left;
+  max-width: 25px;
+  margin-right: 5px;
+  width: 100%;
 }
 
-.side__title {
-    padding-top: 7px;
-    font-size: 24px;
-    color: #ffffff;
-    font-family: 'Gotham Thin 400', sans-serif;
-}
-
-.side__tabs {
-    margin-top: 25px;
-    cursor: pointer;
-}
-
-.side__tab:hover {
-    background-color: #242526;
-    padding-left: 30px;
-}
-
-.side__tab {
-    display: flex;
-    margin-top: 20px;
-    margin-right: 25px;
-}
-
-.side__tab:active {
-    color: #242526;
-}
-
-.side__container {
-    display: flex;
-    width: 100%;
-    margin: 0 auto;
-    align-items: center;
-}
-
-.side__img {
-    color: grey;
-    margin-right: 15px;
-    font-size: 25px;
-    max-width: 200px;
-}
-
-
-.side__title {
-    color: grey;
-    font-size: 15px;
-    font-family: 'Gotham Light', sans-serif;
-    padding-top: 5px;
+.side__title:hover {
+  color: #ffffff;
+  cursor: pointer;
 }
 
 .side__title:active {
-    color: #242526;
+  color: grey;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.side__title {
+  color: grey;
+  font-family: 'Goham Light', sans-serif;
+  font-size: 17px;
+  margin: 10px 0;
+}
+
+.side__tabs {
+  margin-top: 60px;
+}
+
+.side__tab {
+  margin: 0 auto;
+  display: flex;
 }
 
 #side__creation, #sign_nav__creation {
@@ -170,49 +169,51 @@ SEARCH PAGE
     display: flex;
     justify-content: space-between;
 }
-
 .search__container {
-    background-color: #ffffff;
-    max-width: 300px;
-    justify-content: center;
-    width: 100%;
-    margin-top: 17px;
-    padding: 10px 0;
-    border-radius: 20px;
+  max-width: 300px;
+  max-height: 100px;
+  justify-content: center;
+  width: 100%;
+  margin-top: 17px;
+  padding: 10px 0;
+  border-radius: 20px;
+  max-height: 50px;
 }
 
 .img__search {
-    margin-left: 10px;
-    background-color: #ffffff;
-    color: black;
+  position: absolute;
+  margin-left: 25px;
+  background-color: transparent;
+  color: black;
+  margin-top: 17px;
 }
 
 .search__input {
-    border: none;
-    font-size: 12px;
-    max-width: 200px;
-    width: 100%;
-    margin-left: 10px;
-    font-family: 'Gotham Light', sans-serif;
+  border: none;
+  font-size: 12px;
+  max-width: 250px;
+  width: 100%;
+  margin-left: 10px;
+  font-family: 'Gotham Light', sans-serif;
+  border-radius: 30px;
+  padding-left: 25px;
+  text-indent: 25px;
 }
 
-.account__container {
-    background-color: #ffffff;
-    max-width: 200px;
-    width: 100%;
-    margin-top: 17px;
-    border-radius: 20px;
-    position: relative;
+
+.search__results {
+  max-width: 1800px;
+  position: absolute;
+  margin-left: 17%;
+  max-height: 500px;;
+  height: 100%;
 }
 
-.account__info {
-    font-size: 15px;
-    margin-top: 10.5px;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-}
+.card-title {
+  color: #ffffff;
+  font-family: 'Gotham Bold', sans-serif;
 
+}
 /*
 
 LOGIN PAGE
