@@ -15,7 +15,7 @@ const SearchPage = () => {
     
 
     return (
-        <section id="searchPage">
+        <section id="/SearchPage">
             <SideBar />
             <TopBar sendSearch={setSearchTerms} />
             <SearchMusic searchTerms={searchTerms}/>
