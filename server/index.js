@@ -20,7 +20,6 @@ app.use("/api/users/",userRoutes);
 app.use("/api/login/",authRoutes);
 
 // this is for searching it just catches the request
-app.get('/search/:artistOrSong', searchRoutes);
-
+app.get('/search/:artistSong', searchRoutes);
 const port = process.env.PORT;
 app.listen(port, () => console.log(`Listening on port ${port}...`));
