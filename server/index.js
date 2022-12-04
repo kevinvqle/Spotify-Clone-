@@ -22,10 +22,13 @@ app.use("/api/users/",userRoutes);
 app.use("/api/login/",authRoutes);
 
 // this is for searching it just catches the request
+
+app.get('/search/:artistSong', searchRoutes);
 app.get('/search/:artistOrSong', searchRoutes);
 
 // this is for the music it sends you on over to the music.js file in the routes folder
 app.get('/music/:objId', musicRoutes);
+
 
 const port = process.env.PORT;
 app.listen(port, () => console.log(`Listening on port ${port}...`));
