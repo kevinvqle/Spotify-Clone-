@@ -10,6 +10,7 @@ router.get("/search/:artistSong", async (req, res) => {
 			console.log(error);
 		}else{
 			console.log(data);
+
 			temp = data;
 			Songs.find({artist: {$regex:artist_name,$options:"i"}}, (error, data2) =>{
 				if (error){
@@ -24,6 +25,14 @@ router.get("/search/:artistSong", async (req, res) => {
 			});
 		}
 	});
+			the = data;
+			res.send( the );
+
+		}
+	});
+
+	
+
 });
 
 module.exports = router;
