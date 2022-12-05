@@ -1,22 +1,24 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import { Card, Row } from 'react-bootstrap'
 import axios from 'axios';
 
 const SearchMusic = (props) => {
 	const [results, setResults] = useState([])
 
-	// here props.searchTerms is from the topbar nav
-	var baseURL = 'http://badify.site:5000/search/';
-	// this does the search
-	axios.get(baseURL + props.searchTerms)
-	.then(res => {
-		// here data contains an array of results, maybe empty
-		const data = res.data;
-		setResults(data);
-		console.log(data)
+	useEffect(() => {
+		// here props.searchTerms is from the topbar nav
+		var baseURL = 'http://badify.site:5000/search/';
+		// this does the search
+		axios.get(baseURL + props.searchTerms)
+		.then(res => {
+			// here data contains an array of results, maybe empty
+			const data = res.data;
+			setResults(data);
+			console.log(data)
+		})
 	})
-
+	
 	return (
 		<div className='search__results'>
 		<center>

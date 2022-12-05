@@ -20,7 +20,7 @@ const SideBar = () => {
                     <div className="side__tab">
                         <div className="side__container">
                             <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" className="side__img" />
-                            <Link to="SearchPage"className="side__title">Search</Link>
+                            <Link to="/SearchPage"className="side__title">Search</Link>
                         </div>
                     </div>
                     <div className="side__tab">

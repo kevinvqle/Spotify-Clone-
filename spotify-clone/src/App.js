@@ -9,7 +9,7 @@ const App = () => {
     return (
         <div className="App">
             <Routes>
-                <Route path="" exact element={ <HomePage/>} />
+                <Route path="/" exact element={ <HomePage/>} />
                 <Route path="SearchPage" exact element={ <SearchPage/> } />
                 {/* i removed these for our current dev situation */}
                 {/*<Route path="/" exact element={ <LoginPage/> } />*
