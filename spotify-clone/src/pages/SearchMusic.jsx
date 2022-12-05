@@ -7,18 +7,18 @@ const SearchMusic = (props) => {
 	const [results, setResults] = useState([])
 
 	useEffect(() => {
-		// here props.searchTerms is from the topbar nav
-		var baseURL = 'http://badify.site:5000/search/';
-		// this does the search
-		axios.get(baseURL + props.searchTerms)
-		.then(res => {
-			// here data contains an array of results, maybe empty
-			const data = res.data;
-			setResults(data);
-			console.log(data)
-		})
+	// here props.searchTerms is from the topbar nav
+	var baseURL = 'http://badify.site:5000/search/';
+	// this does the search
+	axios.get(baseURL + props.searchTerms)
+	.then(res => {
+		// here data contains an array of results, maybe empty
+		const data = res.data;
+		setResults(data);
+		console.log(data)
 	})
-	
+	}, [props.searchTerms]);
+
 	return (
 		<div className='search__results'>
 		<center>
@@ -27,7 +27,8 @@ const SearchMusic = (props) => {
 							return (<Card width='18 rem'>
 					<Card.Img src={cardInfo.artURL}/>
 					<Card.Body classname="card__body">
-					<Card.Title classname="card__title">{cardInfo.title}</Card.Title>
+					<Card.Text>{cardInfo.artist}</Card.Text>
+					<Card.Title classname="card__title">{cardInfo.title.split(".mp3")}</Card.Title>
 					</Card.Body>
 					</Card>)
 		})}
