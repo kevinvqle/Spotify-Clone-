@@ -1,9 +1,5 @@
 @import url('http://fonts.cdnfonts.com/css/gotham');
 
-html {
-  background-color: rgb(10, 10, 10);
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -124,7 +120,7 @@ HomePage Section
 
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  background-image: linear-gradient(-60deg, #1DB954 50%, #191414 50%);
   bottom:0;
   left:-50%;
   opacity:.5;
@@ -248,6 +244,14 @@ SEARCH PAGE
   max-height: 50px;
 }
 
+.searchpage__bg {
+  position: absolute;
+  width: 83vw;
+  height: 90vh;
+  margin-left: 17%;
+  background-color: #121212;
+}
+
 .img__search {
   position: absolute;
   margin-left: 25px;
@@ -286,6 +290,7 @@ SEARCH PAGE
   font-family: 'Gotham Bold', sans-serif;
 
 }
+
 /*
 
 LOGIN PAGE
@@ -542,7 +547,6 @@ SIGN UP
     width: 100%;
     justify-content: center;
     text-align: center;
-    padding-top: 15px;
   }
 
 .sign__left {
@@ -572,7 +576,6 @@ SIGN UP
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    padding: 15px 15px;
   }
 
 input[type="date"] {
@@ -616,18 +619,43 @@ input[type='radio'] {
   transform: scale(0.93);
 }
 
+.webplayer__btn-signup {
+  border: none;
+  background-color: #ffffff;;
+  margin-left: 5px;
+}
+
+.webplayer__btn-signup:hover {
+  transform: scale(1.07);
+}
+
+.webplayer__btn-signup:active {
+  transform: scale(.93);
+}
+
 .have {
   position: relative;
   display: flex;
+  margin-top: 10px;
 }
 
 .btn__login {
   border: none;
   background-color: transparent;
   text-decoration: underline;
-  margin-left: 10px;
+  margin-left: 6px;
 }
 .btn__login:hover {
   cursor: pointer;
   font-weight: bold;
+}
+
+.webplayer__btn {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: #ffffff;
+  text-decoration: none;
 }

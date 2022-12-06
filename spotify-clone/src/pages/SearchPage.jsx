@@ -5,8 +5,7 @@ import TopBar from '../webplayer/TopBar';
 // adding this here cause i dont know a better place
 import Player from '../ui/Player'
 import SearchMusic from './SearchMusic';
-import { useRef } from 'react';
-import { createRef } from 'react';
+
 
 const SearchPage = () => {
     const [searchTerms, setSearchTerms] = useState("");
@@ -15,10 +14,11 @@ const SearchPage = () => {
     
 
     return (
-        <section id="/SearchPage">
+        <section id="SearchPage">
             <SideBar />
             <TopBar sendSearch={setSearchTerms} />
             <SearchMusic searchTerms={searchTerms}/>
+            <div className="searchpage__bg"></div>
         </section>
         
     );

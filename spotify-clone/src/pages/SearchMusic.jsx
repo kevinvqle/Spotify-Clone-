@@ -2,7 +2,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import React, {useState, useEffect} from 'react';
 import { Card, Row } from 'react-bootstrap'
 import axios from 'axios';
-import AudioPlayer from 'react-simple-audio-player';
 
 
 const SearchMusic = (props) => {

@@ -64,6 +64,9 @@ const LogInNav = () => {
                     <Link to="signup">
                         <button className="create__btn">SIGN UP FOR SPOTIFY</button>
                     </Link>
+                    <Link to="HomePage">
+                        <button className="webplayer__btn">Webplayer</button>
+                    </Link>
                 </div>
             </div>
         </section>

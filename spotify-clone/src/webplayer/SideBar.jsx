@@ -14,7 +14,7 @@ const SideBar = () => {
                     <div className="side__tab">
                         <div className="side__container">
                             <FontAwesomeIcon icon="fa-solid fa-house" className="side__img" />
-                            <Link to="/"className="side__title">Home</Link>
+                            <Link to="/HomePage"className="side__title">Home</Link>
                         </div>
                     </div>
                     <div className="side__tab">

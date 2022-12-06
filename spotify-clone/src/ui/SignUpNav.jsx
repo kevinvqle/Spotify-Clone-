@@ -74,11 +74,13 @@ const SignUpNav = () => {
                         </div>
                     </div>
                     <button className="signup__btn" type="submit" >Sign Up</button>
-                    <input type="submit" />
                     <div className="have">
                         <p className='have__para'>Already have an account?</p>
                         <Link to="/">
                             <button className="btn__login">Log In</button>
+                        </Link>
+                        <Link to="/HomePage">
+                            <button className='webplayer__btn-signup'>Webplayer</button>
                         </Link>
                     </div>
                 </form>
