@@ -30,11 +30,11 @@ const LogInNav = () => {
             <nav id = "nav__creation">
                 <div className = "nav__container">
                     <FontAwesomeIcon icon = "fa-brands fa-spotify" className="nav__icon"/>
-                    <h1 className = "nav__title">Spotify</h1>
+                    <h1 className = "nav__title">Badify</h1>
                 </div>
             </nav>
             <div className = "div__container">
-                <p className = "login__text">To continue, log into Spotify.</p>
+                <p className = "login__text">To continue, log into Badify.</p>
                 <button class = "pill__button">CONTINUE WITH GOOGLE</button>
                 <div className="or__container">
                     <div className="left"></div>
@@ -62,7 +62,7 @@ const LogInNav = () => {
                         Don't have an account?
                     </h3>
                     <Link to="signup">
-                        <button className="create__btn">SIGN UP FOR SPOTIFY</button>
+                        <button className="create__btn">SIGN UP FOR BADIFY</button>
                     </Link>
                     <Link to="HomePage">
                         <button className="webplayer__btn">Webplayer</button>

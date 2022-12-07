@@ -319,7 +319,12 @@ LOGIN PAGE
 
 .pill__button:hover{
     border-color: black;
+    transform: scale(1.07);
 }  
+
+.pill__button:active {
+  transform: scale(.93);
+}
 
   .login__text {
     margin: 0 auto;
@@ -538,6 +543,10 @@ SIGN UP
 
 .sign_pill__button:hover{
    transform: scale(1.07);
+}
+
+.sign_pill__button:active {
+  transform: scale(.93);
 }
 
 .sign_or__container {

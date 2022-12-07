@@ -36,7 +36,7 @@ const SignUpNav = () => {
             <nav id = "sign_nav__creation">
                 <div className = "sign_nav__container">
                     <FontAwesomeIcon icon = "fa-brands fa-spotify" className="sign_nav__icon"/>
-                    <h1 className = "sign_nav__title">Spotify</h1>
+                    <h1 className = "sign_nav__title">Badify</h1>
                 </div>
             </nav>
             <div className = "div__container">
