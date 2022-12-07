@@ -18,7 +18,7 @@ const SearchPage = () => {
             <SideBar />
             <TopBar sendSearch={setSearchTerms} />
             <SearchMusic searchTerms={searchTerms}/>
-            <div className="searchpage__bg"></div>
+            <div className='search__result__before-bg'></div>
         </section>
         
     );
