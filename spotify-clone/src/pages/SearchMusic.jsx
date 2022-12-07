@@ -9,7 +9,7 @@ const SearchMusic = (props) => {
 
 	useEffect(() => {
 	// here props.searchTerms is from the topbar nav
-	var baseURL = 'http://badify.site:5000/search/';
+	var baseURL = 'https://badify.site:5000/search/';
 	// this does the search
 	axios.get(baseURL + props.searchTerms)
 	.then(res => {
@@ -30,7 +30,7 @@ const SearchMusic = (props) => {
 					<Card.Body classname="card__body">
 					<Card.Text>{cardInfo.artist}</Card.Text>
 					<Card.Title classname="card__title">{cardInfo.title.split(".mp3")}</Card.Title>
-					<audio src={"http://badify.site:5000/music/" + cardInfo._id} controls/>
+					<audio src={"https://badify.site:5000/music/" + cardInfo._id} controls/>
 					</Card.Body>
 					</Card>)
 		})}
